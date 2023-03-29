@@ -1,0 +1,112 @@
+:root{
+    --code-backgroun-color:rgb(201, 126, 126);
+    --border-raduis: 20px;
+}
+*{
+    background-color: rgb(51, 198, 181);
+}
+header{
+    text-align: center;
+}
+header h1{
+    padding: 2%;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+header p{
+    padding-left:  20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+body main{
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+section{
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section:hover{
+    filter: drop-shadow(0 0 1rem rgb(249, 234, 149));
+}
+
+.snipt-card{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+    border: dotted;
+    border-color: palevioletred;
+    padding: 4px;
+    margin: 7px;
+        
+}
+h2{
+    border: solid;
+    border-radius: 20%;
+    text-align: center;
+    width: 250px;
+    margin-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top: -20px ;
+    font-size: x-large;
+    color: rgb(56, 255, 255);
+    background-color: rgb(2, 91, 62);
+}
+h2:hover{
+    filter: drop-shadow(0 0 1rem rgb(248, 234, 149));
+}
+.snipt-card p{
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.code-card{
+    height: 100px;
+    color:white;
+    background-color: var(--code-backgroun-color);
+    border-radius: var(--border-raduis);
+
+}
+.code-card:hover{
+    filter: drop-shadow(0 0 1rem rgb(249, 234, 149));
+}
+.code-card pre{
+    background-color: var(--code-backgroun-color);
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: var(--border-raduis);
+}
+.code-card code{
+    background-color: var(--code-backgroun-color);
+    margin-top: 10px;
+    line-height: 25px;
+    user-select: all;
+    border-radius: var(--border-raduis);
+    
+}
+footer{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+ 
+}
